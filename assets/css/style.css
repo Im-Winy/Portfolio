@@ -1,0 +1,64 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COULEURS */
+:root {
+    --color-text: #fff;
+    --colors-primary: #eddeb3;
+    --colors-secondary: #85691b;
+    --colors: #000;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* HEADER */
+header i.bi-justify {
+    color: var(--color-text);
+    font-size: 30px;
+}
+
+header a.navbar-brand h1 {
+    font-size: 1.8rem;
+    color: #9c8c8c;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: var(--color-text) !important;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    line-height: 4rem;
+}
+
+footer div.formulaire {
+    background-color: var(--colors-primary);
+}
+
+footer div.legislation {
+    background-color: var(--colors);
+}
+
+footer a {
+    color: var(--color-text);
+    text-decoration: none;
+    margin: auto;
+}
+
+footer .row .col-md-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
