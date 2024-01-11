@@ -2,7 +2,7 @@
 /* HEADER */
 require 'assets/inc/header.inc.php';
 
-/*  Réception des informations du projet sélectionné par son id */
+/* Réception des informations du projet sélectionné par son id */
 if (isset($_GET['id_projet'])) {
     $info = $pdoPortfolio->prepare("SELECT * FROM projets WHERE id_projet = :id_projet");
     $info->execute([
